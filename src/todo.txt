@@ -1,0 +1,32 @@
+subsurface scattering
+better shadows
+dither diffuse map like in gta
+voxel cone tracing global illumination
+make sure GL_UNSIGNED_SHORT is used for elements of models that can use it.
+make tangent exports only for needed for objects with their material using normal maps
+light prepass doesn't need the invProj multiplication. make it like ssao
+PBR
+batch lights for prepass
+transparent objects
+optimize texture sizes.
+texture atlases to combine draw calls.
+water ez copy
+motion blur
+octree ez just copy from other project
+BSP
+portal culling
+editor
+fix compression 
+fix seg fault on > MAX_MATERIALS
+BoneUpdate only needs to accumulate the rotation if there are springs in the skeleton, make it check.
+ragdolls
+physics
+clean up renderer.c
+remember stencils half done
+remember i removed the halfres
+textureless exports
+modelViewInvTranspose in all needed
+yet another passthrough for shadows, using the normal passthrough is a waste
+modelViewInvTranspose probably not working for skinned passthroughs with normalmaps
+view can be a mat3 not a mat4 for normals
+		kernel[k].z = -((rand() % 1000) / 1000.0f);

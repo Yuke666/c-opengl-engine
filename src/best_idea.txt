@@ -1,0 +1,3 @@
+at the beginning your movements are recorded and the game is a circle
+so that you at the end see your movements play out as you die.
+but at the beginning you also see a man die (you) but you don't know it's you until the end.
